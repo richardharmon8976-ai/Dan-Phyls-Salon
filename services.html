@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services — Dan Phyl's Salon</title>
+  <meta name="description" content="Haircuts, color, styling, manicures, highlights, and special occasion looks at Dan Phyl's Salon in Houston, TX." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="sparkle-field" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+  </div>
+
+  <header class="nav">
+    <a href="index.html" class="brand">
+      <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+        <defs>
+          <linearGradient id="brandGrad" x1="0" x2="1" y1="0" y2="1">
+            <stop offset="0%" stop-color="#ff89b8"/>
+            <stop offset="100%" stop-color="#b06ab3"/>
+          </linearGradient>
+        </defs>
+        <path d="M20 4 C 12 4 6 10 6 20 C 6 30 12 36 20 36 C 28 36 34 30 34 20 C 34 10 28 4 20 4 Z" fill="url(#brandGrad)"/>
+        <path d="M14 16 Q 20 8 26 16 L 26 26 Q 20 30 14 26 Z" fill="#fff" opacity="0.85"/>
+      </svg>
+      <span>Dan Phyl's <em>Salon</em></span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html" class="active">Services</a>
+      <a href="reviews.html">Reviews</a>
+      <a href="visit.html">Visit</a>
+      <a href="tel:7137808424" class="nav-cta">Call (713) 780‑8424</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <section class="page-hero">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+    </div>
+    <div class="page-hero-inner">
+      <p class="eyebrow">Services</p>
+      <h1>Everything from a fresh cut<br/><span class="shimmer">to perfect tips.</span></h1>
+    </div>
+  </section>
+
+  <section class="services">
+    <div class="service-grid">
+      <article class="service-card reveal">
+        <div class="service-icon">
+          <svg viewBox="0 0 64 64" width="44" height="44">
+            <circle cx="20" cy="44" r="8" fill="none" stroke="currentColor" stroke-width="3"/>
+            <circle cx="44" cy="44" r="8" fill="none" stroke="currentColor" stroke-width="3"/>
+            <path d="M26 38 L 56 8" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            <path d="M38 38 L 8 8" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3>Haircuts</h3>
+        <p>Precision cuts for every length and texture. Dry trims, layering, and bangs welcome.</p>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-icon">
+          <svg viewBox="0 0 64 64" width="44" height="44">
+            <path d="M16 40 q 16 -28 32 0 q -16 12 -32 0 z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
+            <circle cx="24" cy="34" r="2" fill="currentColor"/>
+            <circle cx="32" cy="30" r="2" fill="currentColor"/>
+            <circle cx="40" cy="34" r="2" fill="currentColor"/>
+          </svg>
+        </div>
+        <h3>Color</h3>
+        <p>Single‑process, balayage, highlights, and gloss. Custom blends for natural, lived‑in shine.</p>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-icon">
+          <svg viewBox="0 0 64 64" width="44" height="44">
+            <path d="M32 8 q -10 12 -10 22 a 10 10 0 0 0 20 0 q 0 -10 -10 -22 z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
+            <path d="M32 38 v 18" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3>Styling &amp; Blowouts</h3>
+        <p>Smooth blowouts, soft waves, and special‑occasion styles that hold all night long.</p>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-icon">
+          <svg viewBox="0 0 64 64" width="44" height="44">
+            <rect x="22" y="10" width="20" height="44" rx="6" fill="none" stroke="currentColor" stroke-width="3"/>
+            <path d="M22 22 h 20" stroke="currentColor" stroke-width="3"/>
+            <path d="M28 16 q 4 -4 8 0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3>Manicures</h3>
+        <p>Classic, gel, and french. Crisp shapes, glossy finishes, hand massage included.</p>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-icon">
+          <svg viewBox="0 0 64 64" width="44" height="44">
+            <path d="M32 6 l 4 12 12 0 -10 8 4 12 -10 -8 -10 8 4 -12 -10 -8 12 0 z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h3>Highlights</h3>
+        <p>Foil, balayage, and face‑frame brightening. Dimensional looks tailored to your tone.</p>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-icon">
+          <svg viewBox="0 0 64 64" width="44" height="44">
+            <path d="M12 42 q 20 -28 40 0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            <path d="M16 50 q 16 -16 32 0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3>Special Occasions</h3>
+        <p>Weddings, prom, and events. Book the chair — we'll make sure you steal the show.</p>
+      </article>
+    </div>
+
+    <div class="page-cta page-cta-center reveal">
+      <a href="tel:7137808424" class="btn btn-primary">Call to Book</a>
+      <a href="visit.html" class="btn btn-ghost">Plan a Visit</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span>Dan Phyl's <em>Salon</em></span>
+        <small>Family‑run hair &amp; nail care in Houston, TX.</small>
+      </div>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="visit.html">Visit</a>
+      </div>
+      <small class="footer-copy">© <span id="year"></span> Dan Phyl's Salon. All rights reserved.</small>
+    </div>
+    <div class="footer-glow" aria-hidden="true"></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
