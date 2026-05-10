@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dan Phyl's Salon — Hair & Nails in Houston, TX</title>
+  <meta name="description" content="Dan Phyl's Salon is a cheerful, family-run salon in Houston offering haircuts, coloring, styling, and manicures. 4.9 stars on Google." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Animated background sparkles -->
+  <div class="sparkle-field" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+  </div>
+
+  <!-- Navigation -->
+  <header class="nav">
+    <a href="#top" class="brand">
+      <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+        <defs>
+          <linearGradient id="brandGrad" x1="0" x2="1" y1="0" y2="1">
+            <stop offset="0%" stop-color="#ff89b8"/>
+            <stop offset="100%" stop-color="#b06ab3"/>
+          </linearGradient>
+        </defs>
+        <path d="M20 4 C 12 4 6 10 6 20 C 6 30 12 36 20 36 C 28 36 34 30 34 20 C 34 10 28 4 20 4 Z" fill="url(#brandGrad)"/>
+        <path d="M14 16 Q 20 8 26 16 L 26 26 Q 20 30 14 26 Z" fill="#fff" opacity="0.85"/>
+      </svg>
+      <span>Dan Phyl's <em>Salon</em></span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#visit">Visit</a>
+      <a href="tel:7137808424" class="nav-cta">Call (713) 780‑8424</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="top">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+    </div>
+
+    <div class="hero-inner">
+      <p class="eyebrow">Family‑run since day one · Houston, TX</p>
+      <h1 class="hero-title">
+        Where every visit feels<br/>
+        <span class="shimmer">like coming home.</span>
+      </h1>
+      <p class="hero-sub">
+        Cheerful, relaxed hair &amp; nail care — cuts, color, styling, and
+        manicures from a team that treats every client like family.
+      </p>
+      <div class="hero-cta">
+        <a href="tel:7137808424" class="btn btn-primary">
+          <span>Book by Phone</span>
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25c1.1.36 2.3.55 3.5.55a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A18 18 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.2.2 2.4.55 3.5a1 1 0 0 1-.25 1z"/></svg>
+        </a>
+        <a href="#services" class="btn btn-ghost">See Services</a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat">
+          <strong>4.9</strong>
+          <div class="stars" aria-label="4.9 out of 5 stars">★★★★★</div>
+          <small>939 Google reviews</small>
+        </div>
+        <div class="stat">
+          <strong>20+</strong>
+          <small>Years of smiles</small>
+        </div>
+        <div class="stat">
+          <strong>1</strong>
+          <small>Family that treats you like one</small>
+        </div>
+      </div>
+    </div>
+
+    <!-- Floating polish bottle -->
+    <div class="polish-float" aria-hidden="true">
+      <svg viewBox="0 0 100 160" width="120" height="190">
+        <defs>
+          <linearGradient id="polishGrad" x1="0" x2="0" y1="0" y2="1">
+            <stop offset="0%" stop-color="#ff5fa2"/>
+            <stop offset="100%" stop-color="#a93090"/>
+          </linearGradient>
+        </defs>
+        <rect x="35" y="6" width="30" height="22" rx="4" fill="#2b2233"/>
+        <rect x="38" y="28" width="24" height="10" fill="#1a1422"/>
+        <rect x="22" y="40" width="56" height="80" rx="10" fill="url(#polishGrad)"/>
+        <rect x="22" y="40" width="56" height="80" rx="10" fill="url(#polishGrad)" opacity="0.4"/>
+        <ellipse cx="34" cy="58" rx="6" ry="14" fill="#fff" opacity="0.25"/>
+        <rect x="22" y="120" width="56" height="14" rx="6" fill="#1a1422"/>
+      </svg>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-cue" aria-hidden="true"><span></span></div>
+  </section>
+
+  <!-- Marquee -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>✂️ Haircuts</span><span>·</span>
+      <span>🎨 Color</span><span>·</span>
+      <span>💇 Styling</span><span>·</span>
+      <span>💅 Manicures</span><span>·</span>
+      <span>✨ Highlights</span><span>·</span>
+      <span>🌸 Family‑Run</span><span>·</span>
+      <span>✂️ Haircuts</span><span>·</span>
+      <span>🎨 Color</span><span>·</span>
+      <span>💇 Styling</span><span>·</span>
+      <span>💅 Manicures</span><span>·</span>
+      <span>✨ Highlights</span><span>·</span>
+      <span>🌸 Family‑Run</span><span>·</span>
+    </div>
+  </div>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="about-grid">
+      <div class="about-photo reveal">
+        <div class="frame">
+          <!-- Drop in your own photo here -->
+          <div class="photo-placeholder">Photo coming soon</div>
+        </div>
+        <div class="frame-deco" aria-hidden="true"></div>
+      </div>
+      <div class="about-copy reveal">
+        <p class="eyebrow">About the Salon</p>
+        <h2>A cheerful, family‑run salon tucked inside the Hilton Westchase.</h2>
+        <p>
+          For years, Dan Phyl's has been Houston's quiet little favorite — the kind of place
+          where the chairs are warm, the conversation is warmer, and you leave looking
+          (and feeling) like the best version of you. Whether you're popping in for a
+          quick trim or settling in for a full color, you'll be treated like family
+          from the moment you walk in.
+        </p>
+        <ul class="bullets">
+          <li><span>★</span> Trusted by 900+ five‑star Google reviewers</li>
+          <li><span>★</span> Walk‑ins welcome, appointments preferred</li>
+          <li><span>★</span> Inside Hilton Houston Westchase</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services" id="services">
+    <div class="section-head reveal">
+      <p class="eyebrow">Services</p>
+      <h2>Everything from a fresh cut to perfect tips.</h2>
+    </div>
+
+    <div class="service-grid">
+      <article class="service-card reveal">
+        <div class="service-icon">
+          <svg viewBox="0 0 64 64" width="44" height="44">
+            <circle cx="20" cy="44" r="8" fill="none" stroke="currentColor" stroke-width="3"/>
+            <circle cx="44" cy="44" r="8" fill="none" stroke="currentColor" stroke-width="3"/>
+            <path d="M26 38 L 56 8" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            <path d="M38 38 L 8 8" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3>Haircuts</h3>
+        <p>Precision cuts for every length and texture. Dry trims, layering, and bangs welcome.</p>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-icon">
+          <svg viewBox="0 0 64 64" width="44" height="44">
+            <path d="M16 40 q 16 -28 32 0 q -16 12 -32 0 z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
+            <circle cx="24" cy="34" r="2" fill="currentColor"/>
+            <circle cx="32" cy="30" r="2" fill="currentColor"/>
+            <circle cx="40" cy="34" r="2" fill="currentColor"/>
+          </svg>
+        </div>
+        <h3>Color</h3>
+        <p>Single‑process, balayage, highlights, and gloss. Custom blends for natural, lived‑in shine.</p>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-icon">
+          <svg viewBox="0 0 64 64" width="44" height="44">
+            <path d="M32 8 q -10 12 -10 22 a 10 10 0 0 0 20 0 q 0 -10 -10 -22 z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
+            <path d="M32 38 v 18" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3>Styling &amp; Blowouts</h3>
+        <p>Smooth blowouts, soft waves, and special‑occasion styles that hold all night long.</p>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-icon">
+          <svg viewBox="0 0 64 64" width="44" height="44">
+            <rect x="22" y="10" width="20" height="44" rx="6" fill="none" stroke="currentColor" stroke-width="3"/>
+            <path d="M22 22 h 20" stroke="currentColor" stroke-width="3"/>
+            <path d="M28 16 q 4 -4 8 0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3>Manicures</h3>
+        <p>Classic, gel, and french. Crisp shapes, glossy finishes, hand massage included.</p>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-icon">
+          <svg viewBox="0 0 64 64" width="44" height="44">
+            <path d="M32 6 l 4 12 12 0 -10 8 4 12 -10 -8 -10 8 4 -12 -10 -8 12 0 z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h3>Highlights</h3>
+        <p>Foil, balayage, and face‑frame brightening. Dimensional looks tailored to your tone.</p>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-icon">
+          <svg viewBox="0 0 64 64" width="44" height="44">
+            <path d="M12 42 q 20 -28 40 0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            <path d="M16 50 q 16 -16 32 0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3>Special Occasions</h3>
+        <p>Weddings, prom, and events. Book the chair — we'll make sure you steal the show.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="gallery" id="gallery">
+    <div class="section-head reveal">
+      <p class="eyebrow">Gallery</p>
+      <h2>A peek inside the chair.</h2>
+      <p class="muted">Drop your photos into the <code>images/</code> folder — they'll slot right in.</p>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item reveal" style="--delay: 0ms">
+        <img src="images/gallery-1.jpg" alt="Salon work sample" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'gallery-ph',textContent:'Photo 1'}))"/>
+      </div>
+      <div class="gallery-item tall reveal" style="--delay: 80ms">
+        <img src="images/gallery-2.jpg" alt="Salon work sample" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'gallery-ph',textContent:'Photo 2'}))"/>
+      </div>
+      <div class="gallery-item reveal" style="--delay: 160ms">
+        <img src="images/gallery-3.jpg" alt="Salon work sample" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'gallery-ph',textContent:'Photo 3'}))"/>
+      </div>
+      <div class="gallery-item reveal" style="--delay: 240ms">
+        <img src="images/gallery-4.jpg" alt="Salon work sample" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'gallery-ph',textContent:'Photo 4'}))"/>
+      </div>
+      <div class="gallery-item tall reveal" style="--delay: 320ms">
+        <img src="images/gallery-5.jpg" alt="Salon work sample" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'gallery-ph',textContent:'Photo 5'}))"/>
+      </div>
+      <div class="gallery-item reveal" style="--delay: 400ms">
+        <img src="images/gallery-6.jpg" alt="Salon work sample" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'gallery-ph',textContent:'Photo 6'}))"/>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section class="reviews" id="reviews">
+    <div class="section-head reveal">
+      <p class="eyebrow">Kind Words</p>
+      <h2>4.9 stars and counting.</h2>
+    </div>
+
+    <div class="review-track-wrap" aria-hidden="false">
+      <div class="review-track">
+        <figure class="review-card">
+          <div class="stars">★★★★★</div>
+          <blockquote>"The owners are the nicest people and treat their customers like family."</blockquote>
+          <figcaption>— Susan Carter</figcaption>
+        </figure>
+        <figure class="review-card">
+          <div class="stars">★★★★★</div>
+          <blockquote>"Check this place out!"</blockquote>
+          <figcaption>— Amelia Reimers</figcaption>
+        </figure>
+        <figure class="review-card">
+          <div class="stars">★★★★★</div>
+          <blockquote>"I absolutely love my new haircut and will continue to go there."</blockquote>
+          <figcaption>— Kiley Noble</figcaption>
+        </figure>
+        <!-- duplicate for seamless loop -->
+        <figure class="review-card">
+          <div class="stars">★★★★★</div>
+          <blockquote>"The owners are the nicest people and treat their customers like family."</blockquote>
+          <figcaption>— Susan Carter</figcaption>
+        </figure>
+        <figure class="review-card">
+          <div class="stars">★★★★★</div>
+          <blockquote>"Check this place out!"</blockquote>
+          <figcaption>— Amelia Reimers</figcaption>
+        </figure>
+        <figure class="review-card">
+          <div class="stars">★★★★★</div>
+          <blockquote>"I absolutely love my new haircut and will continue to go there."</blockquote>
+          <figcaption>— Kiley Noble</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Visit -->
+  <section class="visit" id="visit">
+    <div class="visit-grid">
+      <div class="visit-info reveal">
+        <p class="eyebrow">Visit Us</p>
+        <h2>Stop by, say hi, get pampered.</h2>
+
+        <div class="info-row">
+          <div class="info-icon">
+            <svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M12 2a8 8 0 0 0-8 8c0 5.5 8 12 8 12s8-6.5 8-12a8 8 0 0 0-8-8zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>
+          </div>
+          <div>
+            <strong>Address</strong>
+            <p>9999 Westheimer Rd, Houston, TX 77042<br/><span class="muted">Located inside Hilton Houston Westchase</span></p>
+          </div>
+        </div>
+
+        <div class="info-row">
+          <div class="info-icon">
+            <svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25c1.1.36 2.3.55 3.5.55a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A18 18 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.2.2 2.4.55 3.5a1 1 0 0 1-.25 1z"/></svg>
+          </div>
+          <div>
+            <strong>Phone</strong>
+            <p><a href="tel:7137808424">(713) 780‑8424</a></p>
+          </div>
+        </div>
+
+        <div class="info-row">
+          <div class="info-icon">
+            <svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm5 11h-6V6h2v5h4z"/></svg>
+          </div>
+          <div>
+            <strong>Hours</strong>
+            <ul class="hours">
+              <li><span>Mon</span><span>Closed</span></li>
+              <li><span>Tue</span><span>9:30 AM – 6:00 PM</span></li>
+              <li><span>Wed</span><span>9:30 AM – 6:00 PM</span></li>
+              <li><span>Thu</span><span>9:30 AM – 6:00 PM</span></li>
+              <li><span>Fri</span><span>9:30 AM – 6:00 PM</span></li>
+              <li><span>Sat</span><span>9:30 AM – 5:00 PM</span></li>
+              <li><span>Sun</span><span>Closed</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="visit-cta">
+          <a href="tel:7137808424" class="btn btn-primary">Call to Book</a>
+          <a href="https://www.google.com/maps?q=9999+Westheimer+Rd,+Houston,+TX+77042" target="_blank" rel="noopener" class="btn btn-ghost">Get Directions</a>
+        </div>
+      </div>
+
+      <div class="visit-map reveal">
+        <iframe
+          title="Map to Dan Phyl's Salon"
+          src="https://www.google.com/maps?q=9999+Westheimer+Rd,+Houston,+TX+77042&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span>Dan Phyl's <em>Salon</em></span>
+        <small>Family‑run hair &amp; nail care in Houston, TX.</small>
+      </div>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#visit">Visit</a>
+      </div>
+      <small class="footer-copy">© <span id="year"></span> Dan Phyl's Salon. All rights reserved.</small>
+    </div>
+    <div class="footer-glow" aria-hidden="true"></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
